@@ -19,7 +19,7 @@ const Options = () => {
 
   {optionData.map((items,i) => (
 
-<div class="max-w-sm p-6 lg:w-auto bg-white rounded-2xl dark:bg-gray-800 dark:border-gray-700 m-10 shadow-blue-500/50 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<div class="max-w-sm p-6 lg:w-auto bg-white rounded-2xl shadow-blue-500/50 hover:bg-gray-100">
   
       <img src={items.Icon} className='w-20' alt='image'></img>
 
