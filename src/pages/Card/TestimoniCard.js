@@ -5,7 +5,7 @@ const TestimoniCard = (props) => {
  
 
     <div>
-    <a href="#" class="block max-w-sm p-6 bg-white  rounded-xl  hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    <a href="#" class="block max-w-sm p-6 bg-white  rounded-xl  hover:bg-gray-100">
     <p class="font-normal text-gray-700 dark:text-gray-400">{props.data}</p>
 
     <ul className='mt-5 flex-shrink-0 justify-start items-center'>

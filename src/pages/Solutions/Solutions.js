@@ -64,7 +64,7 @@ const solutions = () => {
        
 <div className='grid grid-cols-2 gap-1 gap-x- gap-y-5 md:grid-cols-2 lg:grid-cols-3 justify-center  py-5 mx-80 '>
 {cardData.map((item,) => (
-    <div className='bg-white flex rounded-2xl  '>
+    <div className='bg-white flex rounded-2xl mx-10 '>
         <div className='p-5 flex bgjustify-start w-full '>
       
         <div className='w-full p-2'>
