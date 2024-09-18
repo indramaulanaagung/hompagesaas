@@ -24,7 +24,7 @@ const Options = () => {
       <img src={items.Icon} className='w-20' alt='image'></img>
 
     <a href="#">
-        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{items.title}</h5>
+        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-neutral-950">{items.title}</h5>
     </a>
     <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">{items.deskription}</p>
     <a href="#" class="inline-flex font-medium items-center text-blue-600 hover:underline">

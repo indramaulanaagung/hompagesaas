@@ -42,7 +42,7 @@ const solutions = () => {
    <div className='flex justify-center aglign-center  list-none'>
         <li className='items-center mt-20 text-center'>
     <p className='flex-row'>
-            Why Choose Sandbox?
+            Why Choose SalyBuild?
             </p>
             <h1 className='text-2xl font-bold mt30'>
             Our Soluti ons Cover a Wide Range of Industries

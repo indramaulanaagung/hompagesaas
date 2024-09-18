@@ -9,7 +9,7 @@ const optionData = [
  
      },
      {
-         Icon:"/Img/Group 90.png",
+         Icon:"/Img/Group 108-1.png",
          title:"Scalable Technology",
          deskription:"Future-proof technologies designed to grow alongside your business" 
   
