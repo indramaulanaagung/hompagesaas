@@ -20,7 +20,7 @@ const Landing = () => {
     </div>
 
 
-    <div class="flex relative z-10 justify-center items-center my-20">
+      <div class="flex relative z-10 justify-center items-center my-20">
         
         <form class="max-w-md mx-auto w-full">   
             <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
@@ -36,8 +36,6 @@ const Landing = () => {
         </form>
 
     </div>
-
-    <div>
 
   
     
