@@ -3,7 +3,7 @@
 const optionData = [
 
     {
-        Icon:"/SVG/Design/Group 1-1.svg",
+        Icon:"/Img/Group 108-1.png",
         title:"Tailored Strategies",
         deskription:"Customized solutions that fit the unique needs of your business." 
  
