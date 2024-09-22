@@ -29,7 +29,7 @@ const estimoniCard = testimonialData.map(item =>
 
      
 
-<div className='grid grid-rows-1 gap-5 gap-x-10 gap-y-20 md:grid-cols-2 lg:grid-cols-4 xl:mx-80 xl:py-10 lg:mx-0 lg:py-0'>
+<div className='grid justify-center justify-items-center grid-rows-1 gap-5 gap-x-10 gap-y-20 md:grid-cols-2 lg:grid-cols-4 xl:mx-80 xl:py-10 lg:mx-0 lg:py-0 visibiloi'>
 
 {estimoniCard}
 
