@@ -6,14 +6,13 @@ const Explance = () => {
 
 
 
-    <section className='justify-center w-full aglign-center bg-white '>
+    <section className='justify-center w-full aglign-center bg-white xl:max-w-full lg:max-w-xl '>
    
 
 
-<div className='absolute flex justify-center w-full z-10 '>
+<div className='absolute flex justify-center w-full z-10  xl:max-w-full lg:max-w-xl xl:max-w-full lg:max-w-xl'>
 
-
-<div class="flex flex-col justify-center anglign-center items-center py-8 px-2 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 ">
+<div class="flex flex-col justify-center anglign-center items-center py-40 px-20 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 ">
         <div class="font-light text-slate-950 sm:text-lg dark:text-gray-400">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Business Solutions</h2>
             <p class="mb-4 text-black">Our team of experienced professionals works closely with you to ensure that your vision becomes a reality. Whether you’re looking to build a powerful online presence, optimize your website for better performance, or implement marketing strategies that generate leads, [Your Business Name] is your trusted partner.</p>
@@ -23,7 +22,7 @@ const Explance = () => {
             
   </div>
 
-  <img src="/Img/pngegg (2).png" className='justify-self-end '></img>
+  <img src="/Img/pngegg (2).png" className='justify-self-end visible xl:max-w-full lg:max-w-xl xl:visible lg:visible md:invisible sm:invisible invisible'></img>
   
     
  </div>
