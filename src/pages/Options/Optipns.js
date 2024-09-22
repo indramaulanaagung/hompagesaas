@@ -1,5 +1,5 @@
 import React from 'react'
-import optionsData from '../../data/optionData'
+import optionData from '../../data/optionData'
 
 const Options = () => {
   return (
@@ -18,13 +18,13 @@ const Options = () => {
 
   {optionData.map((items,i) => (
 
-<div class="max-w-sm p-6 lg:w-auto bg-white rounded-2xl dark:bg-gray-800 dark:border-gray-700 m-10 shadow-blue-500/50 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<div class="max-w-sm p-6 lg:w-auto bg-white rounded-2xl m-10 shadow-blue-500/50 hover:bg-gray-100">
   
       <img src={items.Icon} className='w-20' alt='image'></img>
 
     
     <a href="#">
-        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{items.title}</h5>
+        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-drak">{items.title}</h5>
     </a>
     <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">{items.deskription}</p>
     <a href="#" class="inline-flex font-medium items-center text-blue-600 hover:underline">

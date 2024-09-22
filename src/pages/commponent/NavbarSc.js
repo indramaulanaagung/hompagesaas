@@ -1,11 +1,12 @@
 import React from 'react'
+import { Navigate } from "react-router-dom";
 
 import Login from '../Auth/Login';
 
 const Navbar = () => {
 
   const goToLogin = () => {
-    navigate("/login");
+    Navigate("/login");
   };
 
   return (
