@@ -10,7 +10,7 @@ const estimoniCard = testimonialData.map(item =>
 
   return (
 
-  <section className='justify-center w-full aglign-center bg-slate-50 h-full  h-50 mx-0 lg:w-auto'>
+  <section className='justify-center justify-center items-center w-full aglign-center bg-slate-50 h-full  h-50 mx-0 lg:w-auto'>
     <div className='justify-center w-full aglign-center bg-slate-50 h-full'>
 
       <div className='justify-center w-full aglign-center bg-slate-50 h-full'>

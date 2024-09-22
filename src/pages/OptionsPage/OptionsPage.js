@@ -14,7 +14,7 @@ const Options = () => {
 
        <div className='py-20'>
 
-<div className='grid grid-rows-1 gap-1 gap-x- gap-y-5 md:grid-cols-2 lg:grid-cols-3 xl:mx-80 xl:py-20 lg:mx-0 lg:py-0 '>
+<div className='grid justify-center grid-rows-1 gap-1 gap-x- gap-y-5 md:grid-cols-2 lg:grid-cols-3 xl:mx-80 xl:py-20 lg:mx-0 lg:py-0 '>
 
   {optionsData.map((items,i) => (
 
