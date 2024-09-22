@@ -2,7 +2,7 @@ const jobData = [
 
     {
       Logo:"",
-      Company:" No COmpany",
+      Company:" Exampla Company",
       Position:"Visual Designer",
       Location:"Hongkong",
       Salary:"$1000"
@@ -10,7 +10,7 @@ const jobData = [
 
     {
       Logo:"",
-      Company:" Oticex",
+      Company:" TertesComponay",
       Position:"Visual Designer",
       Location:"Hongkong",
       Salary:"$1000"

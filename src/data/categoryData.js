@@ -8,7 +8,7 @@ const categoryData = [
 
     {
         icon:"skfoifiw",
-        name:"Graphic Designer",
+        name:"Motions Graphic",
         info:"akfjwopjfeow[jf",
     },
 
