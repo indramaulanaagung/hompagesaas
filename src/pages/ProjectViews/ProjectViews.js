@@ -1,22 +1,21 @@
 import React from 'react'
 
-
 const asoeGambar = [
 
     {
-        image1:"https://images.pexels.com/photos/4464483/pexels-photo-4464483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        image2:"https://images.pexels.com/photos/4464483/pexels-photo-4464483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        image3:"https://images.pexels.com/photos/4464483/pexels-photo-4464483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image1:"https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image2:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1598&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image3:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1598&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-        image1:"https://images.pexels.com/photos/4464483/pexels-photo-4464483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        image2:"https://images.pexels.com/photos/4464483/pexels-photo-4464483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        image3:"https://images.pexels.com/photos/4464483/pexels-photo-4464483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image1:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1598&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image2:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1598&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image3:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1598&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-        image1:"https://images.pexels.com/photos/4464483/pexels-photo-4464483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        image2:"https://images.pexels.com/photos/4464483/pexels-photo-4464483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        image3:"https://images.pexels.com/photos/4464483/pexels-photo-4464483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image1:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1598&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image2:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1598&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image3:"https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
 ];
 
@@ -36,8 +35,6 @@ const ProjectViews = () => {
             </li>
     </div>
 
-
-
 {/* List card */}
 <div className='flex justify-center items-center'>
 <div className='grid grid-cols-2 gap-1 gap-x-3 gap-y-5 md:grid-cols-3 lg:grid-cols-3 mx-20 py-20 md:mx-10 md:my10 place-content-center'>
@@ -46,11 +43,11 @@ const ProjectViews = () => {
     
 <div class="max-w-sm bg-white shadow- shadow-blue-500/50 rounded-3xl">
     <a href="#">
-        <img class="rounded-t-3xl" src={items.image1} alt="" />
+        <img class="rounded-t-3xl bg-cover " src={items.image1} alt="" />
     </a>
     <div class="p-5">
         <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Noteworthy technology acquisitions 2021</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
         <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
