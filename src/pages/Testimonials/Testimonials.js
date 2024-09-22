@@ -10,12 +10,12 @@ const estimoniCard = testimonialData.map(item =>
 
   return (
 
-  <section className='justify-center justify-center items-center w-full aglign-center bg-slate-50 h-full  h-50 mx-0 lg:w-auto'>
+  <section className='justify-center w-full aglign-center bg-slate-50 h-full  h-50 mx-0 lg:w-auto'>
     <div className='justify-center w-full aglign-center bg-slate-50 h-full'>
 
       <div className='justify-center w-full aglign-center bg-slate-50 h-full'>
                 
-   <div className='flex justify-center aglign-center  list-none mx-80 inline-block align-middle bg-white rounded-xl'>
+   <div className='flex justify-center aglign-center  list-none mx-20 inline-block align-middle'>
         <li className='items-center my-20 text-center inline-block align-middl px-10'>
     
             <h1 className='text-2xl font-bold font-weights mb-5'>
