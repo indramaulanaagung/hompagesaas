@@ -1,5 +1,5 @@
 import React from 'react'
-import optionsData from '../../data/optionsData'
+import optionsData from '../../data/optionData'
 
 const Options = () => {
   return (
@@ -16,7 +16,7 @@ const Options = () => {
 
 <div className='grid justify-center grid-rows-1 gap-1 gap-x- gap-y-5 md:grid-cols-2 lg:grid-cols-3 xl:mx-80 xl:py-20 lg:mx-0 lg:py-0 '>
 
-  {optionsData.map((items,i) => (
+  {optionData.map((items,i) => (
 
 <div class="max-w-sm p-6 lg:w-auto bg-white rounded-2xl dark:bg-gray-800 dark:border-gray-700 m-10 shadow-blue-500/50 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
   
