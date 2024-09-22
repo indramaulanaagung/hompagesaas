@@ -19,7 +19,6 @@ const Landing = () => {
         </ul>  
     </div>
 
-
       <div class="flex relative z-10 justify-center items-center my-20">
         
         <form class="max-w-md mx-auto w-full">   
