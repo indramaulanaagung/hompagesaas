@@ -29,9 +29,9 @@ const Strategy = () => {
 
 {dataImage.map((item,i) => (
   
-<div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+<div class="gap-16 items-center py-8 px-20 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
 
-<div class="grid grid-cols-2 gap-4 mt-8 md:grid ">
+<div class="grid grid-cols-1 gap-4 mt-8 md:grid ">
         <img class="w-full rounded-lg" src={item.image} alt="office content 1"></img>
         <img class="mt-4 w-full lg:mt-10 rounded-lg" src={item.image2} alt="office content 2"></img>
         </div>
