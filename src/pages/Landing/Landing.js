@@ -4,8 +4,8 @@ const Landing = () => {
   return (
     <div class="relative  overflow-hidden">
       
-    <div className='bg-cover bg-center bg-cover absolute inset-0'>
-          <img src='/Img/Start.png' alt='image' class="object-cover object-center w-full h-full"/>
+    <div className='bg-cover bg-center bg-cover absolute inset-0 bg-blue-500'>
+          {/* <img src='/Img/Start.png' alt='image' class="object-cover object-center w-full h-full"/> */}
           
     </div>
 
@@ -15,7 +15,7 @@ const Landing = () => {
 
         <h1 className='pt-44 text-center font-bold text-5xl m-24'>Brind Your Solution Business With Us
         </h1>
-        <p1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p1>
+        <p1>Our team of experienced professionals works closely with you to ensure that your vision becomes a reality. Whether you’re looking to build a powerful online presence, optimize your website for better performance, or implement marketing strategies that generate leads, [Your Business Name] is your trusted partner. </p1>
         </ul>  
     </div>
 
