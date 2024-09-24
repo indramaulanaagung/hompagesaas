@@ -118,7 +118,9 @@ const solutions = () => {
 
 
 </div>
+<div className=' absolute fixed -z-10 h-[900px] w-full bg-blue-600'>
 
+</div>
 </div>
 
 <div>
