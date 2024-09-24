@@ -4,7 +4,7 @@ const Landing = () => {
   return (
     <div class="relative  overflow-hidden">
       
-    <div className='bg-cover bg-center bg-cover absolute inset-0 bg-blue-500'>
+    <div className='bg-cover bg-center bg-cover absolute inset-0 bg-blue-600'>
           {/* <img src='/Img/Start.png' alt='image' class="object-cover object-center w-full h-full"/> */}
           
     </div>
