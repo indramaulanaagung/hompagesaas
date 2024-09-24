@@ -2,7 +2,7 @@ import React from 'react'
 const brandsData = [
   {
     imageSrc:
-      "/Img/Brand/ApplePay.svg",
+      "/Img/Brand/Visa.png",
     lightImageSrc:
       "https://cdn.tailgrids.com/2.2/assets/images/brands/graygrids-white.svg",
     altText: "graygrids",
@@ -10,21 +10,21 @@ const brandsData = [
   },
   {
     imageSrc:
-      "/Img/Brand/Mastercard.svg",
+      "/Img/Brand/PayPal - Long.png",
     lightImageSrc:
       "https://cdn.tailgrids.com/2.2/assets/images/brands/lineIcons-white.svg",
     altText: "lineicons",
     link: "#",
   },
   {
-    imageSrc: "/Img/Brand/Stripe.svg",
+    imageSrc: "/Img/Brand/Mastercard.png",
     lightImageSrc:
       "https://cdn.tailgrids.com/2.2/assets/images/brands/uideck-white.svg",
     altText: "uideck",
     link: "#",
   },
   {
-    imageSrc: "/Img/Brand/Stripe.svg",
+    imageSrc: "/Img/Brand/GooglePay.png",
     lightImageSrc:
       "https://cdn.tailgrids.com/2.2/assets/images/brands/ayroui-white.svg",
     altText: "ayroui",
