@@ -12,8 +12,6 @@ import Explance from '../Explance/Explance'
 import Testimonials from '../Testimonials/Testimonials'
 
 
-
-
 const Hero = () => {
   return (
     <>

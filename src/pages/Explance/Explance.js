@@ -18,7 +18,7 @@ const Explance = () => {
             <p class="mb-4 text-white ">Our team of experienced professionals works closely with you to ensure that your vision becomes a reality. Whether you’re looking to build a powerful online presence, optimize your website for better performance, or implement marketing strategies that generate leads, [Your Business Name] is your trusted partner.</p>
             <p className='mb-4 text-white'>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
 
-            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Default</button>
+            <button type="button" class="text-white bg-blue-900 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Get Stardted</button>
             
   </div>
 

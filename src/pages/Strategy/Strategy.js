@@ -16,7 +16,7 @@ const Strategy = () => {
       <img src="/Img/Ellipse 1.jpg" className='bg-center flex absolute z-[-1] justify-center aglign-center w-full '></img>
       <div className='justify-center w-full aglign-center'>
         <ul className='flex justify-center my-50 pt-20'>
-            <h1 className='text-2xl font-bold mt30 text-black
+            <h1 className='text-2xl font-bold mt30 text-white
             '>
             Our Solutions Cover a Wide Range of Industries
             </h1>
@@ -37,9 +37,9 @@ const Strategy = () => {
         </div>
 
         <div class="font-light text-white sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-black">We didn't reinvent the wheel</h2>
-            <p class="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
-            <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">We didn't reinvent the wheel</h2>
+            <p class="mb-4 text text-white">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
+            <p className='text-white'>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
             <div className='mt-10'>
         <button type="button" class="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Default</button>
         </div>
